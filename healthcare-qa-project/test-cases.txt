@@ -1,0 +1,67 @@
+Project: Healthcare Login Page
+Module: Login Functionality
+
+--------------------------------------------------
+Test Case ID: TC_001
+Test Scenario: Login with valid credentials
+Steps:
+1. Enter username: patient1
+2. Enter password: health123
+3. Click Login
+Expected Result: User should be redirected to dashboard
+Actual Result: (To be filled after execution)
+Status: Pass/Fail
+
+--------------------------------------------------
+Test Case ID: TC_002
+Test Scenario: Login with invalid credentials
+Steps:
+1. Enter username: wronguser
+2. Enter password: wrongpass
+3. Click Login
+Expected Result: Error message "Invalid Username or Password" should be displayed
+Actual Result:
+Status: Pass/Fail
+
+--------------------------------------------------
+Test Case ID: TC_003
+Test Scenario: Login with empty fields
+Steps:
+1. Leave username blank
+2. Leave password blank
+3. Click Login
+Expected Result: "All fields are required" message should be displayed
+Actual Result:
+Status: Pass/Fail
+
+--------------------------------------------------
+Test Case ID: TC_004
+Test Scenario: Login with only username
+Steps:
+1. Enter username
+2. Leave password empty
+3. Click Login
+Expected Result: Error message should be displayed
+Actual Result:
+Status: Pass/Fail
+
+--------------------------------------------------
+Test Case ID: TC_005
+Test Scenario: Login with only password
+Steps:
+1. Leave username empty
+2. Enter password
+3. Click Login
+Expected Result: Error message should be displayed
+Actual Result:
+Status: Pass/Fail
+
+--------------------------------------------------
+Test Case ID: TC_006
+Test Scenario: Verify logout functionality
+Steps:
+1. Login with valid credentials
+2. Click Logout
+Expected Result: User should be redirected to login page
+Actual Result:
+Status: Pass/Fail
